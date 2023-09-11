@@ -33,3 +33,58 @@ body {
 ul {
   list-style-type: none;
 }
+
+.button {
+  color: #ffffff;
+  border-radius: 32px;
+  background-color: var(--color-primary-blue);
+  border: var(--color-primary-blue);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 32px;
+  border: 2px solid #2b7fff;
+  cursor: pointer;
+}
+
+.link {
+  color: var(--color-primary-blue);
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-dblue);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.socsety {
+  background-color: #ffffff;
+}
+
+h1 {
+  color: var(--color-primary-blue);
+  font-family: Play;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114px; /* 81.429% */
+  text-transform: capitalize;
+}
