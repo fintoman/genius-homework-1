@@ -161,3 +161,22 @@ h3 .hero-h3 {
 footer {
   background-color: #011f4a;
 }
+
+.link2 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.copy {
+  color: #747272;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
